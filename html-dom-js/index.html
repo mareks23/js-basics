@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" name="" id="input-text-field" />
+    <button id="my-button">click Me</button>
+
+    <script>
+      const inputField = document.getElementById("input-text-field");
+      const myButton = document.getElementById("my-button");
+      
+      console.log(inputField);
+
+      function printName(){
+        console.log("Mareks");
+      }
+
+myButton.addEventListener('click', printName);
+
+    </script>
+  </body>
+</html>
